@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+/*ログイン画面の編集*/
+
+
+.loginheader{
+  position:relative;
+  text-align: end;
+  background-color: #235BAD;
+  height:60px;
+  display:flex;
+  align-items: center;
+  justify-content:end;
+  color:#fff;
+}
+
+.edit{
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  gap: irem;
+  width: 400px;
+  margin:auto;  
+}
+
+h1{
+  font-size:x-large;
+}
+
+h2{
+  font-size:large;
+}
+hr{
+  color: #235BAD;
+}
+
+button{
+  background-color: #235BAD;
+  color: #fff;
+  padding: 10px 30px;
+}
+button:hover{
+  color:#fff;
+  opacity:0.8;
+}
+.container{
+  display: flex;
+  height:100vh
+}
